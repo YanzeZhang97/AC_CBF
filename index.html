@@ -167,22 +167,56 @@
   </div>
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/TODO?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Autonomous robot navigation in an unknown environment can be particularly demanding, especially when the robot does not have direct access to its full state and the safety of the robot is crucial.
+However, most existing safe Reinforcement Learning (RL) solutions either presuppose reliable state estimation—often unavailable in practice—or apply an external safety filter that is decoupled from learning, resulting in limited applicability in unstructured or map-free scenarios.
+In this paper, we propose an end-to-end safety-aware RL navigation framework that integrates Control Barrier Functions (CBF) into an actor-critic RL architecture.
+Our approach defines a safety-aware policy space, enabling robots to explore and optimize their navigation behavior without compromising safety with high probability.
+Specifically, the framework leverages local observation data to directly infer the safe control policy, without the need for explicit state estimation. 
+The combination of the model-based method with the RL allows for faster convergence and improves the sample efficiency.
+We demonstrate the effectiveness and robustness of our proposed method through both simulation studies and real-world experiments on map-free robot navigation tasks.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
 
 
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <h2 class="title is-3"><center>Generalizable distributed safe controllers for 1000+ agents.</center></h2>
+      <!-- <h2 class="title is-3"><center>ACCBF Framework.</center></h2> -->
       <div class="hero-body">
         <center>
-          <img width=24% src="./figs/cf_swap8_overlay.jpg"
-          alt="8 Crazyflies swapping"/>
-          <img width=24% src="./figs/cf6_static_obs.png"
+          <img width=70% src="./figs/ActorCritic.png"
+          <!-- alt="ACCBF Framework"/> -->
+          <!-- <img width=24% src="./figs/cf6_static_obs.png"
           alt="6 Crazyflies swapping with static obstacles"/>
           <img width=24% src="./figs/cf_atk6_overlay.jpg"
           alt="6 Crazyflies swapping with a moving obstacle"/>
           <img width=24% src="./figs/cf_dock6_overlay.jpg"
-          alt="4 Crazyflies swapping and docking on moving targets"/>
+          alt="4 Crazyflies swapping and docking on moving targets"/> -->
         </center>
       </div>
       <div class="hero-body">
@@ -229,40 +263,7 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Paper video. -->
-    <!-- <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/TODO?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Paper video. -->
 
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Autonomous robot navigation in an unknown environment can be particularly demanding, especially when the robot does not have direct access to its full state and the safety of the robot is crucial.
-However, most existing safe Reinforcement Learning (RL) solutions either presuppose reliable state estimation—often unavailable in practice—or apply an external safety filter that is decoupled from learning, resulting in limited applicability in unstructured or map-free scenarios.
-In this paper, we propose an end-to-end safety-aware RL navigation framework that integrates Control Barrier Functions (CBF) into an actor-critic RL architecture.
-Our approach defines a safety-aware policy space, enabling robots to explore and optimize their navigation behavior without compromising safety with high probability.
-Specifically, the framework leverages local observation data to directly infer the safe control policy, without the need for explicit state estimation. 
-The combination of the model-based method with the RL allows for faster convergence and improves the sample efficiency.
-We demonstrate the effectiveness and robustness of our proposed method through both simulation studies and real-world experiments on map-free robot navigation tasks.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
-  </div>
-</section>
 
 
 <section class="section">
