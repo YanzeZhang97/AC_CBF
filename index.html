@@ -209,8 +209,9 @@ We demonstrate the effectiveness and robustness of our proposed method through b
       <!-- <h2 class="title is-3"><center>ACCBF Framework.</center></h2> -->
       <div class="hero-body">
         <center>
+          <h2 class="title is-4">Framework</h2>
           <img width=70% src="./figs/ActorCritic.png"
-          <!-- alt="ACCBF Framework"/> -->
+          alt="ACCBF Framework"/> 
           <!-- <img width=24% src="./figs/cf6_static_obs.png"
           alt="6 Crazyflies swapping with static obstacles"/>
           <img width=24% src="./figs/cf_atk6_overlay.jpg"
@@ -219,27 +220,30 @@ We demonstrate the effectiveness and robustness of our proposed method through b
           alt="4 Crazyflies swapping and docking on moving targets"/> -->
         </center>
       </div>
-      <div class="hero-body">
-        <h2 class="title is-4">Crazyflies switching positions using GCBF+</h2>
-        <center>
-          <img width=45.305% src="./figs/switch.jpg"
-          alt="Crazyflies switching positions using GCBF+"/>
-          <video width="53.695%" autoplay="" muted="" loop="" controls>
-            <source src="videos/swap.mp4" type="video/mp4">
-          </video>
-        </center>
       </div>
       <div class="hero-body">
-        <h2 class="title is-4">Crazyflies switching positions with static obstacles using GCBF+</h2>
+        <h2 class="title is-4">Training Performance of ACCBF, Vanilla PPO and Shield PPO</h2>
         <center>
-          <img width=45.305% src="./figs/static_obs.jpg"
-          alt="Crazyflies switching positions with static obstacles using GCBF+"/>
-          <video width="53.695%" autoplay="" muted="" loop="" controls>
-            <source src="videos/static_obs.mp4" type="video/mp4">
-          </video>
+          <img width=49% src="./figs/Performance_reward.png"
+          alt="Performance Reward Comparison"/>
+          <img width=49% src="./figs/Episode_length.png"
+          alt="Episode Length Comparison"/>
         </center>
       </div>
-      <div class="hero-body">
+      <div class="column">
+        <h2 class="title is-4">Generalize Trained Policy to Different Scenarios</h2>
+        <center>
+          <video width="33%" autoplay="" muted="" loop="" controls>
+            <source src="videos/scenario0.mp4" type="video/mp4">
+          </video>
+          <video width="33%" autoplay="" muted="" loop="" controls>
+            <source src="videos/scenario1.mp4" type="video/mp4">
+          </video>
+          <video width="33%" autoplay="" muted="" loop="" controls>
+            <source src="videos/scenario2.mp4" type="video/mp4">
+          </video>
+        </center>
+      <!-- <div class="hero-body">
         <h2 class="title is-4">Crazyflies switching positions with a moving obstacle using GCBF+</h2>
         <center>
           <img width=45.305% src="./figs/move_obs.jpg"
@@ -248,8 +252,8 @@ We demonstrate the effectiveness and robustness of our proposed method through b
             <source src="videos/attacker.mp4" type="video/mp4">
           </video>
         </center>
-      </div>
-      <div class="hero-body">
+      </div> -->
+      <!-- <div class="hero-body">
         <h2 class="title is-4">Crazyflies docking using GCBF+</h2>
         <center>
           <img width=45.305% src="./figs/docking.jpg"
@@ -258,12 +262,10 @@ We demonstrate the effectiveness and robustness of our proposed method through b
             <source src="videos/docking.mp4" type="video/mp4">
           </video>
         </center>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
-
-
 
 
 <section class="section">
