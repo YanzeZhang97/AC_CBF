@@ -189,8 +189,7 @@
           <p>
             Autonomous robot navigation in an unknown environment is especially challenging, especially when the robot has access only to partial observations while rigorously respecting safety constraints.
 Existing methods either (i) assume a reliable state estimation—which is often unavailable in practice—or (ii) employ a safety filter that is detached from learning, limiting performance in unfamiliar settings.
-In this paper,
-we present an end-to-end, safety-aware Reinforcement Learning (RL) navigation framework that tightly embeds Control Barrier Functions (CBFs) within an actor-critic architecture. 
+In this paper, we present an end-to-end, safety-aware Reinforcement Learning (RL) navigation framework that tightly embeds Control Barrier Functions (CBFs) within an actor-critic architecture. 
 The synergy is twofold: the model-based CBF layer enforces action-level safety at every step, steering the exploration to a provably safe region, while the actor-critic learner refines the CBF hyperparameter online, controlling the viable safe set as experience accrues and thus enabling progressively more performant behavior.
 Crucially, the safety is conditioned directly on local sensor observations, so explicit state or state estimation is not required. 
 This tight integration yields faster convergence and markedly better sample efficiency than purely model-free baselines.
